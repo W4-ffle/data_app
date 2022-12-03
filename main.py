@@ -36,7 +36,7 @@ with dataset:
     })
     st.area_chart(data3.rename(columns={'date': 'index'}).set_index('index'))
 
-    st.subheader("Spending increase in households during christmas period")
+    st.subheader("Spending increase in Belfast Area during christmas period")
 
 chart_data = pd.DataFrame(
    np.random.randn(1000, 2) / [50, 50] + [54.60, -5.92],
